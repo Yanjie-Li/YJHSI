@@ -1,0 +1,20 @@
+Package: YJHSI
+Title: a package for my functions storge
+Version: 1.0.0
+Authors@R: 
+    person("Yanjie", "Li", , "aj7105@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    EBImage,
+    ggplot2,
+    raster,
+    tools
+Depends: 
+    R (>= 2.10)
